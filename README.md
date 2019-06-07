@@ -16,12 +16,12 @@ Same code in `app.component.html` and `npm run build` works!
 
 ## Build
 
-Add your MDB key to package json
+Add your MDB api token to `./package.json` and to `./projects/mdb-pro/package.json`
 
 ```json
 "ng-uikit-pro-standard": "git+https://oauth2:xxxxxx@git.mdbootstrap.com/mdb/angular/ng-uikit-pro-standard.git",
 ```
 
-Replace xxxxxx with your api key
+Replace xxxxxx with your api token
 
 Run `npm run build:mdb` to build the project. And see the above error messagings.
